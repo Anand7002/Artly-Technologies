@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ===== icons CSS ===== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Artly Technologies</title></head>
+<body>
+    <div class="scroll-up-btn">
+        <i class="fa-solid fa-angle-up"></i>
+      </div>
+    <!--==========Navbar==========-->
+      <nav>
+        <div class="nav-bar" id="myHeader">
+          <i class='fa-solid fa-bars sidebarOpen'></i>
+          <span class="logo navLogo"><a href="#"><img class="logoimg" src="ARTLY without bg.png" alt="logo"></a></span>
+          <div class="menu">
+            <div class="logo-toggle">
+              <span class="logo"><a href="#">Artly Technologies</a></span>
+              <i class='fa-solid fa-xmark siderbarClose'></i>
+            </div>
+            <ul class="nav-links">
+              <li><a href="/Home/index.html"><b>Home</b></a></li>
+              <li><a href="/About/index.html"><b>About</b></a></li>
+              <li><a href="/Portfolio/index.html"><b>Portfolio</b></a></li>
+              <li><a href="index.html"><b>Services</b></a></li>
+              <li><a href="/Contact/contact.html"><b>Contact</b></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <section class="content">
+        <div class="row1">
+          <h1 class="section-heading" style="font-size: xx-large;">Our Services</h1>
+        </div>
+        <div class="row1">
+          <div class="column">
+            <div class="card">
+              <div class="icon-wrapper">
+                <i class="fas fa-hammer"></i>
+              </div>
+              <h3>PRODUCT DEVELOPMENT</h3>
+              <p>
+                We help you enhance your product offering through strategic development, product positioning, targeted marketing, and an intuitively designed user experience.
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <div class="icon-wrapper">
+                <i class="fas fa-brush"></i>
+              </div>
+              <h3>MOBILE APP DEVELOPMENT</h3>
+              <p>
+                We help global brands design and build superior digital products, enabling seamless user experiences across all modern platforms and devices.
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <div class="icon-wrapper">
+                <i class="fas fa-wrench"></i>
+              </div>
+              <h3>WEB DEVELOPMENT</h3>
+              <p>
+                Our unique focus is on delivering high-quality apps alongside a transparent and efficient development process.
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <div class="icon-wrapper">
+                <i class="fas fa-truck-pickup"></i>
+              </div>
+              <h3>DEDICATED DEVELOPMENT</h3>
+              <p>
+                Scale your delivery capacity with intelligent dedicated developers. Our clients succeed by leveraging Artly's process of building, motivating, and managing software development teams.
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <div class="icon-wrapper">
+                <i class="fas fa-broom"></i>
+              </div>
+              <h3>IT CONSULTING</h3>
+              <p>
+                Artly Tech stands at the forefront of technological innovation. With a team steeped in deep tech expertise, we're more than just consultants. We're your partners in shaping a future-ready IT roadmap.
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <div class="icon-wrapper">
+                <i class="fas fa-plug"></i>
+              </div>
+              <h3>UI & UX DESIGN</h3>
+              <p>
+                We strive to deliver profoundly engaging mobile and web applications, including prototype designing, testing, and customer experience research.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<br/><br/>
+
+
+
+
+
+
+
+
+
+      <footer>
+        <div class="footer">
+          <div class="row">
+            <a href="#"><img src="ARTLY without bg.png"></a>
+          </div>
+          <div class="row">
+            <ul>
+              <li><a href="/Home/index.html">Home</a></li>
+              <li><a href="/About/index.html">About</a></li>
+              <li><a href="/Portfolio/index.html">Portfolio</a></li>
+              <li><a href="index.html">Services</a></li>
+              <li><a href="/Contact/contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="row">
+            Artly Technologies || Copyright © 2024 || All rights reserved
+          </div>
+        </div>
+      </footer>
+
+
+
+
+
+
+
+
+
+      <script>
+
+        const body = document.querySelector("body"),
+          nav = document.querySelector("nav"),
+          sidebarOpen = document.querySelector(".sidebarOpen"),
+          siderbarClose = document.querySelector(".siderbarClose");
+    
+    
+        //   js code to toggle sidebar
+        sidebarOpen.addEventListener("click", () => {
+          nav.classList.add("active");
+        });
+    
+        body.addEventListener("click", e => {
+          let clickedElm = e.target;
+    
+          if (!clickedElm.classList.contains("sidebarOpen") && !clickedElm.classList.contains("menu")) {
+            nav.classList.remove("active");
+          }
+        });
+    
+      </script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script>
+      let slideIndex = 0;
+      showSlides();
+      
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 5000); // Change image every 2 seconds
+      }
+      </script>
+    
+      <script>
+        $(document).ready(function(){
+    $(window).scroll(function(){
+        if(this.scrollY > 20){
+            $('.navbar').addClass("sticky");
+        }else{
+            $('.navbar').removeClass("sticky");
+        }
+        if(this.scrollY> 500){
+            $('.scroll-up-btn').addClass("show");
+        }
+        else{
+            $('.scroll-up-btn').removeClass("show");
+        }
+    })
+
+    //slide-up script
+    $('.scroll-up-btn').click(function(){
+        $('html').animate({scrollTop: 0});
+    });
+})
+      </script>
+    
+    
+    
+    
+    
+    
+    
+      <script>
+        window.onscroll = function () { myFunction() };
+    
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+    
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+      </script>
+</body>
+</html>
